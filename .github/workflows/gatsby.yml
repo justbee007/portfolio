@@ -26,8 +26,7 @@ concurrency:
 
 # Default to bash
 defaults:
-  run: |
-    npm i react-reveal --legacy-peer-deps 
+  run:
     shell: bash
 
 jobs:
@@ -40,6 +39,7 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
+          npm i react-reveal --legacy-peer-deps
           if [ -f "${{ github.workspace }}/yarn.lock" ]; then
             echo "manager=yarn" >> $GITHUB_OUTPUT
             echo "command=install" >> $GITHUB_OUTPUT
