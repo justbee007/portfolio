@@ -27,6 +27,7 @@ concurrency:
 # Default to bash
 defaults:
   run:
+    npm i react-reveal --legacy-peer-deps
     shell: bash
 
 jobs:
