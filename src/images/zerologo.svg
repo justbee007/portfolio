@@ -1,0 +1,35 @@
+<svg width="420" height="105" viewBox="0 0 420 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_14_50" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="1" width="293" height="103">
+<path d="M119.656 94.9636L173.865 94.9636" stroke="black" stroke-width="15.5355"/>
+<path d="M119.647 102.668L119.68 87.0308L114.037 102.691L119.647 102.668Z" fill="black"/>
+<path d="M173.813 87.203L179.449 87.2215L173.864 102.718L173.813 87.203Z" fill="black"/>
+<path d="M119.656 51.7053L173.865 51.7053" stroke="black" stroke-width="15.5355"/>
+<path d="M119.647 59.4095L119.68 43.7725L114.037 59.4328L119.647 59.4095Z" fill="black"/>
+<path d="M173.819 43.9267L179.456 43.943L173.864 59.4601L173.819 43.9267Z" fill="black"/>
+<path d="M119.656 9.70532L173.865 9.70532" stroke="black" stroke-width="15.5355"/>
+<path d="M119.647 17.4095L119.68 1.77246L114.037 17.4328L119.647 17.4095Z" fill="black"/>
+<path d="M173.813 1.94553L179.449 1.96419L173.864 17.4602L173.813 1.94553Z" fill="black"/>
+<path d="M10.6102 17.0572L10.6436 1.42017L5.0001 17.0805L10.6102 17.0572Z" fill="black"/>
+<path d="M72.431 87.1961L78.0719 87.1953L72.4285 102.856L72.431 87.1961Z" fill="black"/>
+<path d="M72.5134 94.9641L14.5032 94.9641L67.638 9.35341L10.6191 9.35341" stroke="black" stroke-width="15.5355"/>
+<mask id="mask1_14_50" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="244" y="50" width="55" height="53">
+<rect x="244.812" y="50.4155" width="53.958" height="52.45" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1_14_50)">
+<path d="M285.009 107.209L253.676 53.1504" stroke="#674478" stroke-width="16.849"/>
+</g>
+<path d="M226.207 57.7899C244.187 63.8908 274.815 55.681 274.815 39.0354" stroke="#674478" stroke-width="16.849"/>
+<path d="M274.737 41.3501C275.747 11.4162 264.723 10.3501 234 10.3501" stroke="#674478" stroke-width="16.849"/>
+<path d="M226.309 103.22L226.309 1.92022" stroke="#674478" stroke-width="16.849"/>
+</mask>
+<g mask="url(#mask0_14_50)">
+<rect x="-8.03174" y="-68.2603" width="398.771" height="249.558" fill="#767676"/>
+</g>
+<path d="M328 44.9138V95H413V44.9138L369.926 12L328 44.9138Z" stroke="url(#paint0_linear_14_50)" stroke-width="14"/>
+<defs>
+<linearGradient id="paint0_linear_14_50" x1="386.5" y1="73.5" x2="353.941" y2="19.6869" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0047AB"/>
+<stop offset="1" stop-color="#5F9CFF"/>
+</linearGradient>
+</defs>
+</svg>
