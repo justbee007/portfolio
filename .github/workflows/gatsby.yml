@@ -39,9 +39,8 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          npm i react-reveal --legacy-peer-deps
           npm install -g gatsby-cli
-          npm install --save-dev
+          npm i react-reveal --legacy-peer-deps
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
