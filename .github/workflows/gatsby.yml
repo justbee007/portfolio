@@ -41,6 +41,7 @@ jobs:
         run: |
           npm i react-reveal --legacy-peer-deps
           npm install -g gatsby-cli
+          npm install --save-dev
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
