@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Fade from "react-reveal/Fade"
+import Fade from "react-awesome-reveal";
 
 const Project = ({Title,Info1,Info2,Img1,Title2,Info3,Info4,Img2,link1,link2}) => {
     return (

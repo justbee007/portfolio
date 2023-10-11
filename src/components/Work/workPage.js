@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 import neu from "../../images/neu.jpg"
 import tcs from "../../images/flex.webp"
 import intel from "../../images/zerologo.svg"
