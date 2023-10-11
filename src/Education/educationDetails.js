@@ -1,11 +1,11 @@
 import React from 'react'
-import Slide from "react-awesome-reveal";
+import Fade from "react-awesome-reveal";
 
 
 const EducationDetails = () => {
     return (
         <div className="max-w-7xl mx-auto flex flex-col items-center text-white mt-20 font-poppins">
-          <Slide bottom cascade>
+          <Fade bottom cascade>
             <div className="grid grid-cols-2 gap-6 mt-10">
               <a
                 href="#"
@@ -57,7 +57,7 @@ Application Engineering and Design | Web Development- MERN Stack | programming s
                 </p>
               </a>
             </div>
-          </Slide>
+          </Fade>
         </div>
       )
 }
