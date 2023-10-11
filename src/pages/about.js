@@ -9,7 +9,7 @@ const About = () => {
     <Layout>
       <AboutInfo></AboutInfo>
       {/* <AboutCard></AboutCard> */}
-      <AboutCardImages></AboutCardImages>
+      {/* <AboutCardImages></AboutCardImages> */}
     </Layout>
   )
 }
