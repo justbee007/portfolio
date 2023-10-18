@@ -1,10 +1,8 @@
 import React from 'react'
-import Fade from "react-awesome-reveal";
 
 const Skills = () => {
     return (
         <div className="max-w-7xl mx-auto ">
-          <Fade bottom cascade>
           <h1 className="text-white font-bold text-left text-5xl mt-10">Skills</h1>
             <div className="w-full grid grid-cols-4 gap-3 mt-10 md:grid-cols-4 sm:grid-cols-2">
               <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r bg-white bg-opacity-10 hover:from-blue-400 hover:to-green-300 transition duration-500 ease-in-out">
@@ -72,7 +70,6 @@ const Skills = () => {
                 <h3 className="text-white">Advanced</h3>
               </div>
             </div>
-          </Fade>
         </div>
       )
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import Fade from "react-awesome-reveal";
 import neu from "../../images/neu.jpg"
 import tcs from "../../images/flex.webp"
 import intel from "../../images/zerologo.svg"
@@ -83,7 +82,7 @@ const WorkPage = () => {
 
 <div className="max-w-7xl mx-auto mt-10">
 
-          <Fade bottom cascade>
+         
             <div className="flex flex-row-reverse mt-10">
               <div className="w-3/4 m-2 text-white bg-lightblack p-8 rounded-xl">
                 {/* <h2 className="text-sm opacity-50 font-semibold">Careers</h2> */}
@@ -100,10 +99,6 @@ const WorkPage = () => {
                 <img src={intel}></img>
               </div>
             </div>
-          </Fade>
-          
-
-          <Fade bottom cascade>
               <div className="flex flex-row-reverse mt-10">
               <div className="w-3/4 m-2 text-white bg-lightblack p-8 rounded-xl">
                 {/* <h2 className="text-sm opacity-50 font-semibold">Careers</h2> */}
@@ -121,7 +116,7 @@ const WorkPage = () => {
              <img src={tcs}></img>
               </div>
             </div>
-          </Fade>
+          
         </div>
       )
 }

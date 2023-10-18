@@ -15,8 +15,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@stahl.luke/react-reveal": "^1.2.3",
     "fade": "^0.2.0",
     "gatsby": "^4.14.0",
     "gatsby-link": "^4.15.0",
@@ -31,24 +29,12 @@
     "gatsby-source-filesystem": "^4.14.0",
     "gatsby-transformer-sharp": "^4.14.0",
     "react": "^17.0.1",
-    "react-awesome-reveal": "^4.2.5",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-scripts": "3.4.0",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "prettier": "^2.6.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
-  "main": "gatsby-config.js",
-  "author": "Abhinav"
+  }
 }

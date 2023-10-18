@@ -1,12 +1,10 @@
 import React from "react"
-import Fade from "react-awesome-reveal";
 import HeaderImage from "../../images/home.jpg"
 import { Link } from "gatsby"
 
 const Header = () => {
   return (
     <div className="max-w-7xl mx-auto px-8">
-      <Fade>
         <div className="flex flex-row space-x-96">
           <div className="mr-5">
           <h2 className="text-white font-poppins opacity-50 font-semibold mt-20 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-xl">
@@ -28,14 +26,12 @@ const Header = () => {
           </div>
         </div>
         
-      </Fade>
 
       <div className="max-w-7xl mx-auto mt-10">
         <div className="w-full h-auto overflow-hidden rounded-xl">
           <img className="w-full h-full" src={HeaderImage} alt="Header"></img>
         </div>
       </div>
-      <Fade bottom cascade>
         <div className="w-full flex flex-row justify-between mt-10 xxs:flex-col xs:flex-col sm:flex-row">
           <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r bg-white bg-opacity-10 hover:from-blue-400 hover:to-green-300 transition duration-500 ease-in-out">
             <h1 className="text-white text-4xl">
@@ -74,7 +70,6 @@ const Header = () => {
                 </Link></h1>
           </div>
         </div>
-      </Fade>
     </div>
   )
 }
