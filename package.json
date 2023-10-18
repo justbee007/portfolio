@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -34,6 +34,7 @@
     "react-awesome-reveal": "^4.2.5",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-scripts": "3.4.0",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
@@ -49,5 +50,5 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
   "main": "gatsby-config.js",
-  "author": ""
+  "author": "Abhinav"
 }
