@@ -33,6 +33,5 @@
   "static/store.png": "static/store-b334706c464867aab12786376fb12bc9.png",
   "styles.css": "styles.eed79ed56a5cd7112c3b.css",
   "webpack-runtime-06c313598b38edb29f76.js.map": "webpack-runtime-06c313598b38edb29f76.js.map",
-  "webpack-runtime-a08f3f433827880fe186.js.map": "webpack-runtime-a08f3f433827880fe186.js.map",
-  "webpack-runtime.js": "webpack-runtime-a08f3f433827880fe186.js"
+  "webpack-runtime.js": "webpack-runtime-06c313598b38edb29f76.js"
 }
