@@ -29,5 +29,5 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: public
           repositoryName: deploy_to_repo #Skip this if deploying to same repo
-          token: ${{ secrets.GH_TOKEN}} #Skip this when deploying to
+          access-token: ${{ secrets.SECRETKEY }} #Skip this when deploying to
           run: npm run deploy
