@@ -32,6 +32,7 @@
   "static/social.jpeg": "static/social-d03c675236c80765c3265bdd7e84d0ae.jpeg",
   "static/store.png": "static/store-b334706c464867aab12786376fb12bc9.png",
   "styles.css": "styles.eed79ed56a5cd7112c3b.css",
+  "webpack-runtime-4f19cf956980ed0e8d4d.js.map": "webpack-runtime-4f19cf956980ed0e8d4d.js.map",
   "webpack-runtime-ae7762a08334bf4a2595.js.map": "webpack-runtime-ae7762a08334bf4a2595.js.map",
-  "webpack-runtime.js": "webpack-runtime-ae7762a08334bf4a2595.js"
+  "webpack-runtime.js": "webpack-runtime-4f19cf956980ed0e8d4d.js"
 }
