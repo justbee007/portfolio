@@ -37,7 +37,7 @@ const Header = () => {
 
       <div className="max-w-7xl mx-auto mt-10">
         <div className="w-full h-auto overflow-hidden rounded-xl">
-          <img className="w-full h-full" src={shopping} alt="Header"></img>
+          {/* <img className="w-full h-full" src={shopping} alt="Header"></img> */}
         </div>
       </div>
         <div className="w-full flex flex-row justify-between mt-10 xxs:flex-col xs:flex-col sm:flex-row">
