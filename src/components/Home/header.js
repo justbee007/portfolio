@@ -1,7 +1,7 @@
 import React from "react"
 import HeaderImage from "../../images/home.jpg"
 import { Link } from "gatsby"
-
+import Typewriter from 'typewriter-effect';
 const Header = () => {
   return (
     <div className="max-w-7xl mx-auto px-8">
@@ -11,7 +11,14 @@ const Header = () => {
             Hola todos
           </h2>
           <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-2xl sm:text-lg md:text-2xl lg:text-4xl xl:text-3xl 2xl:text-4xl">
-            I'm Abhinav Manoj Menon <br></br> a{" "}
+          <Typewriter
+  options={{
+    strings: ['I am Abhinav Manoj Menon'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+             <br></br> a{" "}
             <span class="text-gradient bg-gradient-to-r from-red-400 to-green-500">
               Software Developer
             </span>

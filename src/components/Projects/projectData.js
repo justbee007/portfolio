@@ -7,10 +7,11 @@ import kafka from '../../images/Kafka.jpeg'
 import shopping from '../../images/shopping.jpg'
 import social from '../../images/social.jpeg'
 import ecommerece from '../../images/store.png'
-
+import {Slide} from "react-awesome-reveal";
 const ProjectData = ({Title,Info1,Info2,Img1,Title2,Info3,Info4,Img2}) => {
   return (
       <div>
+        <Slide>
         <Project 
         Title="Ecommerce Site"
         Info1="A place where we can purchase different products. "
@@ -51,6 +52,7 @@ const ProjectData = ({Title,Info1,Info2,Img1,Title2,Info3,Info4,Img2}) => {
         Img2={shopping}
         link2=""
         ></Project>
+        </Slide>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import neu from "../../images/neu.jpg"
 import tcs from "../../images/flex.webp"
 import intel from "../../images/zerologo.svg"
-
+import {Slide} from "react-awesome-reveal";
 const WorkPage = () => {
    return (
 //         <div>
@@ -79,10 +79,8 @@ const WorkPage = () => {
 //       </div>
 //     )
 // }
-
+<Slide>
 <div className="max-w-7xl mx-auto mt-10">
-
-         
             <div className="flex flex-row-reverse mt-10">
               <div className="w-3/4 m-2 text-white bg-lightblack p-8 rounded-xl">
                 {/* <h2 className="text-sm opacity-50 font-semibold">Careers</h2> */}
@@ -115,9 +113,9 @@ const WorkPage = () => {
               <div className="w-2/4 rounded-xl overflow-hidden m-2">
              <img src={tcs}></img>
               </div>
-            </div>
-          
+            </div>  
         </div>
+        </Slide>
       )
 }
 

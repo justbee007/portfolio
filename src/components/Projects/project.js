@@ -1,8 +1,9 @@
 
 import React from 'react'
-
+import {Slide} from "react-awesome-reveal";
 const Project = ({Title,Info1,Info2,Img1,Title2,Info3,Info4,Img2,link1,link2}) => {
     return (
+      <Slide>
         <div className="max-w-7xl mx-auto mt-10">
             <div className="flex">
               <div className="w-3/4 m-2 text-white bg-lightblack p-8 rounded-xl">
@@ -33,7 +34,7 @@ const Project = ({Title,Info1,Info2,Img1,Title2,Info3,Info4,Img2,link1,link2}) =
               </div>
             </div>
         </div>
-        
+        </Slide>
       )
 }
 
